@@ -17,7 +17,7 @@ package p2;
 			System.out.println(list);
 //			Stream listStream = list.stream();
 			list.stream().filter(n->n>60).forEach((element)-> System.out.println(element));
-//			list.stream().forEach((element)->System.out.print(element + " "));
+			list.stream().forEach((element)->System.out.print(element + " "));
 			list.stream().forEach(System.out::println);
 			System.out.println("count =" +list.stream().filter((iteam)->iteam>60).count());
 			

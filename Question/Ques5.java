@@ -10,11 +10,13 @@ public class Ques5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List<String> list = Arrays.asList("Java", null, "Spring", null, "React");
-//		ArrayList<String> list = new ArrayList<String>();
+
 		List<String> result = list.stream()
 		.filter(str -> str != null)
 		.collect(Collectors.toList());
 		System.out.println(result);
+		
+//		ArrayList<String> list
 		
 //		list.addAll(data);
 //		list.stream()

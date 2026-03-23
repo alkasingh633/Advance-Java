@@ -11,16 +11,7 @@ public class Ques1 {
 	    int max = list.stream().reduce(Integer::max).get();
 	    System.out.println(max);
 
-        // Using reduce to find maximum
-//        Optional<Integer> max = numbers.stream()
-//                                       .reduce((a, b) -> a > b ? a : b);
-
-        // Display result
-//        if (max.isPresent()) {
-//            System.out.println("Maximum number: " + max.get());
-//        } else {
-//            System.out.println("List is empty");
-//        }
+     
 	}
 
 }

@@ -1,17 +1,16 @@
 package Sort;
-
 import java.util.Arrays;
 import java.util.List;
 
-
-public class Sort1 {
+public class Ques1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<Integer> list = Arrays.asList(23, 12, 1,45,23,45,76);
+		List<Integer> list = Arrays.asList(12, 5, 33, 9, 21, 1);
 		System.out.println(list);
-		List<Integer> sortedList = list.stream().sorted((a,b)->b-a).toList();
+		List<Integer> sortedList = list.stream().sorted((a,b)->a-b).toList();
 		System.out.println(sortedList);
+
 	}
 
 }

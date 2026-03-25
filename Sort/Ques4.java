@@ -1,5 +1,20 @@
 package Sort;
+import java.util.Arrays;
+import java.util.List;
 
 public class Ques4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> list = Arrays.asList(12, 5, 33, 9, 21, 1);
+		System.out.println(list);
+		List<Integer> sortedList = list.stream()
+				.sorted()
+				.skip(list.size()-3)
+				.toList();
+		System.out.println(sortedList);
+
+	}
+
 
 }

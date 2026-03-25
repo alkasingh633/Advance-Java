@@ -2,17 +2,20 @@ package Sort;
 import java.util.Arrays;
 import java.util.List;
 
-public class Ques5 {
+public class Ques11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<Integer> list = Arrays.asList(27, 4, 19, 11, 35, 2);
+		List<String> list = Arrays.asList("Ravi", "Ankit", "Zoya", "Meena", "Kunal");
 		System.out.println(list);
-		List<Integer> sortedList = list.stream().sorted((a,b)->a-b).toList();
+		List<String> sortedList = list.stream()
+				.sorted((a,b)->b.compareTo(a))
+				.toList();
 		System.out.println(sortedList);
 
 	}
 
 
-
 }
+
+

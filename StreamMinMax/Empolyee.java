@@ -31,6 +31,11 @@ ArrayList<Employee> empList = new ArrayList<>(Arrays.asList(
         new Employee(106, "Rohit", 80000, 32, "IT"),
         new Employee(107, "Simran", 65000, 29, "Finance"),
         new Employee(108, "Amit", 50000, 25, "IT")));
+Employee result = empList.stream()
+.sorted(Comparator.comparing(Employee:: getSalary).reversed())
+.skip(1)
+.findFirst().get();
+//System.out.println(result);
 
 }
 

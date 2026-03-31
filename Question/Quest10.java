@@ -2,7 +2,7 @@ package Question;
 import java.util.*;
 import java.util.Collection;
 import java.util.Comparator;
-//import java.util.Collectors;
+//import java.collecto.Collectors;
 
 public class Quest10 {
 

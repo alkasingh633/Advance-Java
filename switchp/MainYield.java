@@ -1,8 +1,5 @@
 package switchp;
 
-
-
-
 public class MainYield {
 
 	public static void main(String[] args) {

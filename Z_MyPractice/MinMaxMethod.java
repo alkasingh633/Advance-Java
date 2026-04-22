@@ -17,7 +17,7 @@ public class MinMaxMethod {
 		Integer biggestElement = listOfIntegers.stream()
 				.max((e1,e2)->e1.compareTo(e2))
 				.get();
-				System.out.println("Biggest element "+ biggestElement);
+				System.out.println("Big element "+ biggestElement);
 
 	}
 

@@ -25,7 +25,7 @@ public class FilterEx {
 		List<Employee> empList = new ArrayList<Employee>();
 		
 		empList.add(new Employee(1, "Aman", 10000));
-		empList.add(new Employee(1, "Robin", 12000));
+		empList.add(new Employee(1, "Robi", 12000));
 		empList.add(new Employee(1, "Ankit", 15000));
 		empList.add(new Employee(1, "Raz", 18000));
 		
@@ -37,7 +37,7 @@ public class FilterEx {
 
 //		OR
 		empList.stream().filter(e->e.salary>12000)
-		.forEach(e-> System.out.println(e.name+" "+ e.salary));
+		.forEach(e-> System.out.println( "Table" +e.name+" "+ e.salary));
 	}
 
 }

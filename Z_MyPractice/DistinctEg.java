@@ -11,7 +11,7 @@ public class DistinctEg {
 		
 		list.add("java");
 		list.add("c++");
-		list.add("java");
+		list.add("maths");
 		list.add("java");
 		list.add("python");
 		

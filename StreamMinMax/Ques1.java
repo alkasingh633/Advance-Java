@@ -7,7 +7,7 @@ public class Ques1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<Integer> list = Arrays.asList(89, 78, 54, 9, 57, 32);
+		List<Integer> list = Arrays.asList(56, 67, 89, 32, 11,  67);
 		List<Integer> sortedList = list.stream().sorted((a,b)->a-b).toList();
 		System.out.println(list);
 		System.out.println(sortedList);

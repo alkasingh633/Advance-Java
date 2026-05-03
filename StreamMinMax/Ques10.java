@@ -8,7 +8,7 @@ public class Ques10 {
 	 public static void main(String[] args) {
 		 
 		 ArrayList<Integer> list = new ArrayList<>(
-	                Arrays.asList(10, 20, 20, 30, 40, 40, 50));
+	                Arrays.asList(10, 23, 45, 67, 87));
 		 Optional<Integer> maxValue = list.stream()
                  .distinct()
                  .max(Integer::compareTo);

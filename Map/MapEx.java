@@ -8,7 +8,7 @@ public class MapEx {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<Integer> numbers = Arrays.asList(24, 56, 87 ,34 ,98);
+		List<Integer> numbers = Arrays.asList(26, 78, 98, 65, 90);
 		System.out.println(numbers);
 		List<Integer> result = numbers.stream().filter(n->n<40).map(n-> n+8).toList();
 		System.out.println(result);
